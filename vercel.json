@@ -8,5 +8,10 @@
     { "src": "/generate", "dest": "/api/generate" },
     { "src": "/download", "dest": "/api/download" },
     { "src": "/api/(.*)", "dest": "/src/pages/api/$1.ts" }
-  ]
+  ],
+  "build": {
+    "env": {
+      "NODE_VERSION": "20.x"
+    }
+  }
 }
