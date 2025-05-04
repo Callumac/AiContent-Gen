@@ -7,6 +7,7 @@
   "routes": [
     { "src": "/generate", "dest": "/api/generate" },
     { "src": "/download", "dest": "/api/download" },
-    { "src": "/api/(.*)", "dest": "/src/pages/api/$1.ts" }
+    { "src": "/api/(.*)", "dest": "/src/pages/api/$1.ts" },
+    { "src": "/(.*)", "dest": "/src/pages/$1" }
   ]
 }
