@@ -1,5 +1,5 @@
 {
-  "name": "Aicontent-Gen",
+  "name": "Acontent-Gen",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev -p 3000",
@@ -11,7 +11,6 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "openai": "^4.0.0",
-    "gtts": "^1.3.2",
     "canvas": "^2.9.0",
     "archiver": "^5.3.0",
     "uuid": "^9.0.0",
